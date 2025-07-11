@@ -49,32 +49,13 @@
   </header>
 
   <main>
-    <h1>Intelli Voice - Prototyp Alternoil</h1>
-    <p>Intelli Voice ist die Sprachaissistenz von IntelliWerk. Dieser Prototyp hilft bei Problemen an Bio-LNG-Zapfsäulen und freut sich über Feedback!</p>
+    <h1>Intelli Voice - Prototyp TruckWash 24</h1>
+    <p>Intelli Voice ist die Sprachaissistenz von IntelliWerk. Dieser Prototyp hilft bei der Auftragsannahme in verschiedenen Sprachen.</p>
   </main>
 
 
 
-<footer id="ai-footer"></footer>
-
-<script>
-  const widgetHTML = `<${atob("ZWxldmVubGFicy1jb252YWk=")} agent-id="${atob("aHNXYXhGdWxyRjhCMHJWTkZkbEE=")}"></${atob("ZWxldmVubGFicy1jb252YWk=")}>`;
-  const scriptSrc = atob("aHR0cHM6Ly9lbGV2ZW5sYWJzLmlvL2NvbnZhaS13aWRnZXQvaW5kZXguanM=");
-
-  // Script erzeugen
-  const script = document.createElement("script");
-  script.src = scriptSrc;
-  script.async = true;
-  script.type = "text/javascript";
-
-  // Nach dem Laden Script-Tag + HTML gleichzeitig einsetzen
-  script.onload = function () {
-    document.getElementById("ai-footer").innerHTML = widgetHTML;
-  };
-
-  // Script ins <head> einfügen
-  document.head.appendChild(script);
-</script>
+<elevenlabs-convai agent-id="agent_01jzq52xxmenxbmg5vrnznbwqv"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 
 </body>
 </html>
